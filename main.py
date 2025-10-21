@@ -4,7 +4,7 @@ from datetime import datetime
 from typing import Dict, Optional
 import hashlib
 
-app = FastAPI(title="String Analyzer API", version="1.0")
+app = FastAPI()
 
 db: Dict[str, Dict] = {}
 
